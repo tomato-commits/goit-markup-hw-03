@@ -10,34 +10,42 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header block -->
     <header class="header">
       <nav class="navigation">
-        <a class="logo" href="index.html"
-          ><span class="logo-accent">Web</span
-          >Studio</a
-        >
-        <ul class="menu">
+        <a class="logo link" href="index.html"><span class="logo-accent">Web</span>Studio</a>
+        <ul class="menu list">
           <li class="menu-item">
-            <a class="menu-link current" href="./index.html">Студия</a>
+            <a class="menu-link link current" href="./index.html">Студия</a>
           </li>
           <li class="menu-item">
-            <a class="menu-link" href="./portfolio.html">Портфолио</a>
+            <a class="menu-link link" href="./portfolio.html">Портфолио</a>
           </li>
           <li class="menu-item">
-            <a class="menu-link" href="">Контакты</a>
+            <a class="menu-link link" href="">Контакты</a>
           </li>
         </ul>
       </nav>
 
       <!-- Contact us header block -->
-      <a class="contact-link" href="mailto:info@devstudio.com"
-        >info@devstudio.com</a
-      >
-      <a class="contact-link" href="tel:+380961111111">+38 096 111 11 11</a>
+      <ul class="contact-list list">
+        <li class="contact-list-item">
+          <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li class="contact-list-item">
+          <a class="contact-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
+      </ul>
     </header>
 
     <!-- Main section -->
@@ -51,33 +59,29 @@
       <!-- Advantages section -->
       <section class="advantages">
         <h2 class="advatages-title" hidden>Наши преимущества</h2>
-        <ul class="advantages-list">
+        <ul class="advantages-list list">
           <li class="advantages-list-item">
             <h3 class="advantages-list-item-title">Внимание к деталям</h3>
             <p class="advantages-list-item-text">
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
+              Идейные соображения, а также начало повседневной работы по формированию позиции.
             </p>
           </li>
           <li class="advantages-list-item">
             <h3 class="advantages-list-item-title">Пунктуальность</h3>
             <p class="advantages-list-item-text">
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
+              Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
             </p>
           </li>
           <li class="advantages-list-item">
             <h3 class="advantages-list-item-title">Планирование</h3>
             <p class="advantages-list-item-text">
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
+              Равным образом консультация с широким активом в значительной степени обуславливает.
             </p>
-          </li class="advantages-list-item">
-          <li>
+          </li>
+          <li class="advantages-list-item">
             <h3 class="advantages-list-item-title">Современные технологии</h3>
             <p class="advantages-list-item-text">
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
+              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
             </p>
           </li>
         </ul>
@@ -86,9 +90,10 @@
       <!-- What we do section -->
       <section class="duties">
         <h2 class="duties-title">Чем мы занимаемся</h2>
-        <ul class="duties-list">
+        <ul class="duties-list list">
           <li class="duties-item">
-            <img class="duties-image"
+            <img
+              class="duties-image"
               src="./img/what-we-do/img11.jpg"
               alt="разработчик пишет код"
               width="370"
@@ -96,7 +101,8 @@
             />
           </li>
           <li class="duties-item">
-            <img class="duties-image"
+            <img
+              class="duties-image"
               src="./img/what-we-do/img22.jpg"
               alt="дизайн макета сайта на мобильном устройстве"
               width="370"
@@ -104,7 +110,8 @@
             />
           </li>
           <li class="duties-item">
-            <img class="duties-image"
+            <img
+              class="duties-image"
               src="./img/what-we-do/img33.jpg"
               alt="селекция цветов"
               width="370"
@@ -117,9 +124,10 @@
       <!-- Our team section -->
       <section class="team">
         <h2 class="team-title">Наша команда</h2>
-        <ul class="team-list">
+        <ul class="team-list list">
           <li class="team-item">
-            <img class="team-image"
+            <img
+              class="team-image"
               src="./img/team/igor1.jpg"
               alt="разработчик игорь"
               width="270"
@@ -129,7 +137,8 @@
             <p class="team-text" lang="en">Product Designer</p>
           </li>
           <li class="team-item">
-            <img class="team-image"
+            <img
+              class="team-image"
               src="./img/team/olga1.jpg"
               alt="разработчица ольга"
               width="270"
@@ -139,7 +148,8 @@
             <p class="team-text" lang="en">Frontend Developer</p>
           </li>
           <li class="team-item">
-            <img class="team-image"
+            <img
+              class="team-image"
               src="./img/team/nicholas1.jpg"
               alt="разработчик николай"
               width="270"
@@ -149,7 +159,8 @@
             <p class="team-text" lang="en">Marketing</p>
           </li>
           <li class="team-item">
-            <img class="team-image"
+            <img
+              class="team-image"
               src="./img/team/michael1.jpg"
               alt="разработчик михаил"
               width="270"
@@ -164,11 +175,14 @@
 
     <!-- Contact us footer section -->
     <footer class="footer">
-      <a class="logo" href="./index.html"><span class="logo-accent">Web</span><span class="logo-text">Studio</span></a>
-      <ul class="footer-list">
+      <a class="logo link" href="./index.html"
+        ><span class="logo-accent">Web</span><span class="logo-text">Studio</span></a
+      >
+      <ul class="footer-list list">
         <li class="footer-item">
           <address class="footer-address">
-            <a class="footer-link address"
+            <a
+              class="footer-link link address"
               href="https://goo.gl/maps/jHkkeHPNADYMm9U96"
               target="_blank"
               rel="   noopener noreferrer"
@@ -178,12 +192,12 @@
         </li>
         <li class="footer-item">
           <address class="footer-address">
-            <a class="footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="footer-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </address>
         </li>
         <li class="footer-item">
           <address class="footer-address">
-            <a class="footer-link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="footer-link link" href="tel:+380961111111">+38 096 111 11 11</a>
           </address>
         </li>
       </ul>

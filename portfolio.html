@@ -10,40 +10,49 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header block -->
     <header class="header">
       <nav class="navigation">
-        <a class="logo" href="index.html"
-          ><span class="logo-accent">Web</span>Studio</a
-        >
-        <ul class="menu">
+        <a class="logo link" href="index.html"><span class="logo-accent">Web</span>Studio</a>
+        <ul class="menu list">
           <li class="menu-item">
-            <a class="menu-link" href="./index.html">Студия</a>
+            <a class="menu-link link" href="./index.html">Студия</a>
           </li>
           <li class="menu-item">
-            <a class="menu-link current" href="./portfolio.html">Портфолио</a>
+            <a class="menu-link link current" href="./portfolio.html">Портфолио</a>
           </li>
           <li class="menu-item">
-            <a class="menu-link" href="">Контакты</a>
+            <a class="menu-link link" href="">Контакты</a>
           </li>
         </ul>
       </nav>
 
       <!-- Contact us header block -->
-      <a class="contact-link" href="mailto:info@devstudio.com"
-        >info@devstudio.com</a
-      >
-      <a class="contact-link" href="tel:+380961111111">+38 096 111 11 11</a>
+      <ul class="contact-list list">
+        <li class="contact-list-item">
+          <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li class="contact-list-item">
+          <a class="contact-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
+      </ul>
     </header>
 
     <!-- Our projects -->
     <main class="projects">
       <section class="projects-section">
         <h1 class="projects-heading" hidden>Наши проекты</h1>
-        <ul class="projects-btn-list">
+        <ul class="projects-btn-list list">
           <li class="projects-item">
             <button class="projects-btn current" type="button">Все</button>
           </li>
@@ -61,9 +70,9 @@
           </li>
         </ul>
 
-        <ul class="examples-list">
+        <ul class="examples-list list">
           <li class="examples-item">
-            <a class="examples-link" href=""
+            <a class="examples-link link" href=""
               ><img
                 class="examples-image"
                 src="./img/portfolio/technohriak.jpg"
@@ -76,7 +85,7 @@
             </a>
           </li>
           <li class="examples-item">
-            <a class="examples-link" href=""
+            <a class="examples-link link" href=""
               ><img
                 class="examples-image"
                 src="./img/portfolio/basketball-poster.jpg"
@@ -91,7 +100,7 @@
             </a>
           </li>
           <li class="examples-item">
-            <a class="examples-link" href=""
+            <a class="examples-link link" href=""
               ><img
                 class="examples-image"
                 src="./img/portfolio/seafood.jpg"
@@ -99,14 +108,12 @@
                 width="370"
                 height="294"
               />
-              <h2 class="examples-heading">
-                Ресторан <span lang="en">Seafood</span>
-              </h2>
+              <h2 class="examples-heading">Ресторан <span lang="en">Seafood</span></h2>
               <p class="examples-text">Приложение</p>
             </a>
           </li>
           <li class="examples-item">
-            <a class="examples-link" href=""
+            <a class="examples-link link" href=""
               ><img
                 class="examples-image"
                 src="./img/portfolio/prime-project.jpg"
@@ -114,14 +121,12 @@
                 width="370"
                 height="294"
               />
-              <h2 class="examples-heading">
-                Проект <span lang="en">Prime</span>
-              </h2>
+              <h2 class="examples-heading">Проект <span lang="en">Prime</span></h2>
               <p class="examples-text">Маркетинг</p>
             </a>
           </li>
           <li class="examples-item">
-            <a class="examples-link" href=""
+            <a class="examples-link link" href=""
               ><img
                 class="examples-image"
                 src="./img/portfolio/boxes-project.jpg"
@@ -129,14 +134,12 @@
                 width="370"
                 height="294"
               />
-              <h2 class="examples-heading">
-                Проект <span lang="en">Boxes</span>
-              </h2>
+              <h2 class="examples-heading">Проект <span lang="en">Boxes</span></h2>
               <p class="examples-text">Приложение</p>
             </a>
           </li>
           <li class="examples-item">
-            <a class="examples-link" href=""
+            <a class="examples-link link" href=""
               ><img
                 class="examples-image"
                 src="./img/portfolio/ispiration-has-no-borders.jpg"
@@ -144,14 +147,12 @@
                 width="370"
                 height="294"
               />
-              <h2 class="examples-heading" lang="en">
-                Inspiration has no Borders
-              </h2>
+              <h2 class="examples-heading" lang="en">Inspiration has no Borders</h2>
               <p class="examples-text">Веб-сайт</p>
             </a>
           </li>
           <li class="examples-item">
-            <a class="examples-link" href=""
+            <a class="examples-link link" href=""
               ><img
                 class="examples-image"
                 src="./img/portfolio/limited-edition.jpg"
@@ -159,14 +160,12 @@
                 width="370"
                 height="294"
               />
-              <h2 class="examples-heading">
-                Издание <span lang="en">Limited Edition</span>
-              </h2>
+              <h2 class="examples-heading">Издание <span lang="en">Limited Edition</span></h2>
               <p class="examples-text">Дизайн</p>
             </a>
           </li>
           <li class="examples-item">
-            <a class="examples-link" href=""
+            <a class="examples-link link" href=""
               ><img
                 class="examples-image"
                 src="./img/portfolio/lab-project.jpg"
@@ -174,14 +173,12 @@
                 width="370"
                 height="294"
               />
-              <h2 class="examples-heading">
-                Проект <span lang="en">LAB</span>
-              </h2>
+              <h2 class="examples-heading">Проект <span lang="en">LAB</span></h2>
               <p class="examples-text">Маркетинг</p>
             </a>
           </li>
           <li class="examples-item">
-            <a class="examples-link" href=""
+            <a class="examples-link link" href=""
               ><img
                 class="examples-image"
                 src="./img/portfolio/growing-business.jpg"
@@ -199,15 +196,14 @@
 
     <!-- Contact us footer section -->
     <footer class="footer">
-      <a class="logo" href="./index.html"
-        ><span class="logo-accent">Web</span
-        ><span class="logo-text">Studio</span></a
+      <a class="logo link" href="./index.html"
+        ><span class="logo-accent">Web</span><span class="logo-text">Studio</span></a
       >
-      <ul class="footer-list">
+      <ul class="footer-list list">
         <li class="footer-item">
           <address class="footer-address">
             <a
-              class="footer-link address"
+              class="footer-link link address"
               href="https://goo.gl/maps/jHkkeHPNADYMm9U96"
               target="_blank"
               rel="   noopener noreferrer"
@@ -217,16 +213,12 @@
         </li>
         <li class="footer-item">
           <address class="footer-address">
-            <a class="footer-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
+            <a class="footer-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </address>
         </li>
         <li class="footer-item">
           <address class="footer-address">
-            <a class="footer-link" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
+            <a class="footer-link link" href="tel:+380961111111">+38 096 111 11 11</a>
           </address>
         </li>
       </ul>
