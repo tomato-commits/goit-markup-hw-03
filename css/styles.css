@@ -9,8 +9,9 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  color: #757575;
+  font-family: var(--main-font);
+  color: var(--description-text-color);
+  background-color: #ffffff;
 }
 
 h1,
@@ -42,12 +43,32 @@ img {
 .link {
   text-decoration: none;
 }
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /* ======MAIN STYLING SETTINGS END ====== */
 
 /* ======STUDIO START====== */
 /* ======HEADER START====== */
 .header {
-  background-color: #ffffff;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -56,6 +77,7 @@ img {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-right: 93px;
   color: #000000;
 }
 
@@ -70,6 +92,15 @@ img {
 
 .logo-text {
   color: #ffffff;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .menu-link {
@@ -101,36 +132,43 @@ img {
 .contact-link:focus {
   color: var(--accent-color);
 }
+
+.email {
+  margin-left: auto;
+  margin-right: 50px;
+}
 /* ======HEADER FINISH====== */
 
 /* ======HERO START====== */
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: #2f303a;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .main-title {
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
 }
 
 .modal-btn {
-  font-family: var(--main-font);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   display: block;
   margin: 0 auto;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
   cursor: pointer;
   color: #ffffff;
   background: var(--accent-color);
+  padding: 10px 32px;
+  border-radius: 4px;
+  border: 0;
 }
 
 .modal-btn:hover,
@@ -142,6 +180,18 @@ img {
 /* ======HERO FINISH====== */
 
 /* ======ADVANTAGES SECTION START====== */
+.advantages {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.advantages-list {
+  display: flex;
+}
+
+.advantages-list-item:not(:last-child) {
+  margin-right: 30px;
+}
 
 .advantages-list-item-title {
   font-weight: 700;
@@ -150,6 +200,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--headings-color);
+  margin-bottom: 10px;
 }
 
 .advantages-list-item-text {
@@ -161,7 +212,7 @@ img {
 
 /* ======DUTIES SECTION START====== */
 .duties {
-  background: #ffffff;
+  padding-bottom: 109px;
 }
 
 .duties-title {
