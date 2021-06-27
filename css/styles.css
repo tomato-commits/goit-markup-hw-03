@@ -52,9 +52,9 @@ img {
 }
 
 .section {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
-
 /* ======MAIN STYLING SETTINGS END ====== */
 
 /* ======STUDIO START====== */
@@ -180,15 +180,9 @@ img {
   color: #ffffff;
   background-color: var(--accent-color);
 }
-
 /* ======HERO FINISH====== */
 
 /* ======ADVANTAGES SECTION START====== */
-.advantages {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .advantages-list {
   display: flex;
   margin-top: -30px;
@@ -220,7 +214,7 @@ img {
 
 /* ======DUTIES SECTION START====== */
 .duties {
-  /* padding-bottom: 109px; */
+  padding-top: 0;
 }
 
 .duties-title {
@@ -244,7 +238,6 @@ img {
   margin-top: 30px;
   margin-left: 30px;
 }
-
 /* ======DUTIES SECTION FINISH====== */
 
 /* ======TEAM SECTION START====== */
@@ -302,7 +295,6 @@ img {
 /* ======TEAM SECTION FINISH====== */
 
 /* ======FOOTER SECTION START====== */
-
 .footer {
   background: #2f303a;
   padding-top: 60px;
@@ -344,7 +336,6 @@ img {
 .projects-btn-list {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
   padding-bottom: 50px;
 }
 
@@ -380,10 +371,6 @@ img {
 /* ======PROJECTS BUTTONS FINISH====== */
 
 /* ======EXAMPLES GALLERY START====== */
-.projects-section {
-  padding-bottom: 94px;
-}
-
 .examples-heading {
   font-weight: 700;
   font-size: 18px;
@@ -425,6 +412,5 @@ img {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
 /* ======EXAMPLES GALLERY FINISH====== */
 /* ======PORTFOLIO FINISH====== */
